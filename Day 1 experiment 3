@@ -1,0 +1,157 @@
+>>>>> Question 1:-
+mysql> use student;
+Database changed
+mysql> desc student;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| regno    | int      | NO   | PRI | NULL    |       |
+| name     | char(20) | YES  |     | NULL    |       |
+| gender   | char(10) | YES  |     | NULL    |       |
+| DOB      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| city     | char(20) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+mysql> insert into student values(19212540, 'pranavi', 'female', 2002, 63020675, 'kadapa');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> select*from student;
++-----------+---------+--------+-------+----------+-----------+
+| regno     | name    | gender | DOB   | mobileno | city      |
++-----------+---------+--------+-------+----------+-----------+
+|  19212540 | pranavi | female |  2002 | 63020675 | kadapa    |
+| 191811316 | yuga    | female |  2000 | 96763717 | hyderabad |
+| 192111260 | hamsika | female |  2004 | 96763717 | hyderabad |
+| 192111269 | hamsika | female | -2003 | 75691845 | kadapa    |
++-----------+---------+--------+-------+----------+-----------+
+4 rows in set (0.00 sec)
+
+mysql> use faculty;
+Database changed
+mysql> insert into faculty values(27,'dinesh','male',1976,456789321,2000,'ECE');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into faculty values(34,'aswini','female',1986,901446473,2002,'IT');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from faculty;
++-------+--------+--------+------+-----------+------+------+
+| facNo | name   | gender | DOB  | mobileno  | DOJ  | dept |
++-------+--------+--------+------+-----------+------+------+
+|    27 | dinesh | male   | 1976 | 456789321 | 2000 | ECE  |
+|    34 | aswini | female | 1986 | 901446473 | 2002 | IT   |
++-------+--------+--------+------+-----------+------+------+
+2 rows in set (0.00 sec)
+
+mysql> use department;
+Database changed
+mysql> desc department;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| deptno   | int      | NO   | PRI | NULL    |       |
+| deptname | char(20) | YES  |     | NULL    |       |
+| depthead | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> insert into department values(12,'IT','Hari');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use course;
+Database changed
+mysql> insert into course values(15,'program','python',04,325,1921);
+Query OK, 1 row affected (0.02 sec)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 2:-
+mysql> use student;
+Database changed
+
+mysql>update student set regno=191711342 where name='yashwanth';
+Query OK, 1 row affected(0.00 sec)
+mysql> select * from student;
++-----------+-----------+--------+-------+-----------+---------+
+| regno     | name      | gender | DOB   | mobileno  | city    |
++-----------+-----------+--------+-------+-----------+---------+
+| 191711342 | yashwanth | male   |  2002 |  89765342 | kurnool |
+| 192121014 | charmi    | female | -1984 | 911057892 | vizag   |
+|  19211120 | vijaya    | female |  1999 | 944047747 | yanam   |
++-----------+-----------+--------+-------+-----------+---------+
+3 rows in set (0.00 sec)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 3:-
+mysql> use faculty;
+Database changed
+mysql> delete from faculty where name='aswini';
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from faculty;
++-------+--------+--------+------+-----------+------+------+
+| facNo | name   | gender | DOB  | mobileno  | DOJ  | dept |
++-------+--------+--------+------+-----------+------+------+
+|    27 | dinesh | male   | 1976 | 456789321 | 2000 | ECE  |
++-------+--------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 4:-
+mysql> select * from faculty;
++-------+--------+--------+------+-----------+------+------+
+| facNo | name   | gender | DOB  | mobileno  | DOJ  | dept |
++-------+--------+--------+------+-----------+------+------+
+|    27 | dinesh | male   | 1976 | 456789321 | 2000 | ECE  |
++-------+--------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+
+mysql> update faculty set name='ram' where facno=27;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update faculty set DOB=1983 where name='ram';
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from faculty;
++-------+------+--------+------+-----------+------+------+
+| facNo | name | gender | DOB  | mobileno  | DOJ  | dept |
++-------+------+--------+------+-----------+------+------+
+|    27 | ram  | male   | 1983 | 456789321 | 2000 | ECE  |
++-------+------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 5:-
+select *from student;
++-----------+-----------+--------+-------+-----------+---------+
+| regno     | name      | gender | DOB   | mobileno  | city    |
++-----------+-----------+--------+-------+-----------+---------+
+| 191711342 | yashwanth | male   |  2002 |  89765342 | kurnool |
+| 192121014 | charmi    | female | -1984 | 911057892 | vizag   |
+|  19211120 | vijaya    | female |  1999 | 944047747 | yanam   |
++-----------+-----------+--------+-------+-----------+---------+
+3 rows in set (0.00 sec)
+*****************************************************
+mysql> select * from faculty;
++-------+------+--------+------+-----------+------+------+
+| facNo | name | gender | DOB  | mobileno  | DOJ  | dept |
++-------+------+--------+------+-----------+------+------+
+|    27 | ram  | male   | 1983 | 456789321 | 2000 | ECE  |
++-------+------+--------+------+-----------+------+------+
+******************************************************
+mysql> select * from department;
++--------+----------+------------+
+| deptNo | deptname | depthead   |
++--------+----------+------------+
+|      1 | CSE      | Swami Nath |
++--------+----------+------------+
+1 row in set (0.00 sec)
+******************************************************
+mysql> select * from course;
++----------+------------+------------+-------+--------+-------+
+| courseNo | coursedesc | coursetype | semno | hallno | facno |
++----------+------------+------------+-------+--------+-------+
+|       15 | program    | python     |     4 |    325 |  1921 |
+|       23 | theory     | maths      |     3 |    123 |  1934 |
++----------+------------+------------+-------+--------+-------+
+2 rows in set (0.00 sec)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
