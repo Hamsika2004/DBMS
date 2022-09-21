@@ -31,3 +31,12 @@
 ![image](https://user-images.githubusercontent.com/113450853/191505151-db957230-8d82-48b3-b9ef-f6f99f301022.png)
 ![image](https://user-images.githubusercontent.com/113450853/191505233-5df45212-7eea-4147-aeae-c7caef641fb7.png)
 ![image](https://user-images.githubusercontent.com/113450853/191505381-8b9149c7-6c4e-467c-ae39-5d1b44ff3eb0.png)
+##Day 1 experiment 5
+[files](https://github.com/Hamsika2004/DBMS/commit/b0d474f2174cd4d76eee2a6d12901ecfce31c352)
+![image](https://user-images.githubusercontent.com/113450853/191507192-9a440349-8446-4704-bdbf-b56a60ef6ada.png)
+![image](https://user-images.githubusercontent.com/113450853/191507310-7210495d-b258-4e96-b06e-bbefbde1efff.png)
+![image](https://user-images.githubusercontent.com/113450853/191507412-7a5c0374-0def-4182-b58e-1305e5fcae8c.png)
+![image](https://user-images.githubusercontent.com/113450853/191507533-b6465fe1-e63a-4d91-ae33-9fefbe402640.png)
+![image](https://user-images.githubusercontent.com/113450853/191507710-12009415-744c-4064-8903-0f0f4dd06842.png)
+![image](https://user-images.githubusercontent.com/113450853/191507816-b144068d-be75-431e-9075-0b8ee711052c.png)
+![image](https://user-images.githubusercontent.com/113450853/191507937-33f1442f-299d-4704-90b5-a926c4200ba2.png)
