@@ -40,3 +40,6 @@
 ![image](https://user-images.githubusercontent.com/113450853/191507710-12009415-744c-4064-8903-0f0f4dd06842.png)
 ![image](https://user-images.githubusercontent.com/113450853/191507816-b144068d-be75-431e-9075-0b8ee711052c.png)
 ![image](https://user-images.githubusercontent.com/113450853/191507937-33f1442f-299d-4704-90b5-a926c4200ba2.png)
+##Day 2 experiment 6
+[files](https://github.com/Hamsika2004/DBMS/commit/39fa8622c9fa65227d01b296fee81f224ce28146)
+![image](https://user-images.githubusercontent.com/113450853/191652113-a1ab16b4-9e32-4ae5-9a0b-4b00aece1d62.png)
