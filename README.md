@@ -52,4 +52,7 @@
 ##Day 2 experiment 9
 [files](https://github.com/Hamsika2004/DBMS/commit/3dd37b08e52d120f9cd05162eb871cef15a02981)
 ![image](https://user-images.githubusercontent.com/113450853/191654427-ccbd644d-81cd-4e10-bdd9-d04300d0664d.png)
+##Day 2 experiment 10
+[files](https://github.com/Hamsika2004/DBMS/commit/7410c4c9ca48fab3a56c87151faac69ae25d3825)
+![image](https://user-images.githubusercontent.com/113450853/191654764-9a223577-a93e-416a-93d2-0b36e0de4bbc.png)
 
