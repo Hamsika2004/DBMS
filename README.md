@@ -64,3 +64,6 @@
 ##Day 2 experiment 13
 [files](https://github.com/Hamsika2004/DBMS/commit/099c9a7ccd38eb329feaf6a32ef774d4ece863be)
 ![image](https://user-images.githubusercontent.com/113450853/191657817-d26f2026-beaa-404b-b62a-a91869333637.png)
+##Experiment 14 to 15
+[files](https://github.com/Hamsika2004/DBMS/commit/033128c8d142ca4debdc9cf0db9f31f950bc0486)
+![image](https://user-images.githubusercontent.com/113450853/191658595-029d66e8-9896-4eb5-bb43-c273cd6f4630.png)
