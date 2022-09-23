@@ -97,3 +97,6 @@
 ##Experiment 23
 [files](https://github.com/Hamsika2004/DBMS/commit/bce65c28c83111f5dabab6900f440b1c1b0431fd)
 ![image](https://user-images.githubusercontent.com/113450853/191896576-601e1490-9e41-43af-b65b-07d30de0730c.png)
+##Experiment 24
+[files](https://github.com/Hamsika2004/DBMS/commit/610e1b163e1d68aa7248a3d8ea60d1f338b128ad)
+![image](https://user-images.githubusercontent.com/113450853/191896752-e9af4fdc-8df8-41a4-a560-644e741cb244.png)
