@@ -100,3 +100,12 @@
 ##Experiment 24
 [files](https://github.com/Hamsika2004/DBMS/commit/610e1b163e1d68aa7248a3d8ea60d1f338b128ad)
 ![image](https://user-images.githubusercontent.com/113450853/191896752-e9af4fdc-8df8-41a4-a560-644e741cb244.png)
+##Experiment 25
+[files](https://github.com/Hamsika2004/DBMS/commit/f9beab26009ed956db33efd22fd1db4e0dac4c69)
+![image](https://user-images.githubusercontent.com/113450853/191897017-4b159939-4047-42b7-9d99-bc3f4d2469fb.png)
+![image](https://user-images.githubusercontent.com/113450853/191897135-f9ef26d5-1efd-425d-bd16-d7a3293c326a.png)
+![image](https://user-images.githubusercontent.com/113450853/191897323-bcf01f2e-4e65-4ffb-87c4-184b361f6883.png)
+![image](https://user-images.githubusercontent.com/113450853/191897375-b64acd17-d470-4cb5-be86-b379e96e5238.png)
+
+
+
